@@ -16,6 +16,9 @@ body {
   padding-top: 3%;
   padding-bottom: 4%;
 }
+p {
+  color: #999;
+}
 /* HEADER ======================*/
 .header {
   background-color: rgb(7, 121, 228);
@@ -45,6 +48,7 @@ body {
 .services-cards {
   display: flex;
   margin-bottom: 2rem;
+  gap: 15px;
 }
 .services-cards .card {
   background-color: #fff;
