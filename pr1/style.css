@@ -1,4 +1,22 @@
-/* HEADER */
+/* Common CSS ======================*/
+body {
+  background-color: #f8f8f8;
+}
+.section-subtitle {
+  color: #0779e4;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+}
+.section-title {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.section {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+/* HEADER ======================*/
 .header {
   background-color: rgb(7, 121, 228);
   color: white;
@@ -22,4 +40,20 @@
   font-size: 30px;
   display: inline-block;
   padding: 0.2em 0;
+}
+/* Services section ========================= */
+.services-cards {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.services-cards .card {
+  background-color: #fff;
+  flex-basis: 33%;
+  padding: 1.5em;
+}
+.card-title {
+  color: #0779e4;
+}
+.card-link {
+  color: #0779e4;
 }
