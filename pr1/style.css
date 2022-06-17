@@ -1,0 +1,25 @@
+/* HEADER */
+.header {
+  background-color: rgb(7, 121, 228);
+  color: white;
+  /* padding: 1em 0; */
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  /* Kad sucentruoti  */
+  align-items: center;
+}
+.nav-link {
+  padding: 0.6em 1em;
+  /* a linkai visada eina inline reikia daryti inline block kad backgroundas uzsidetu tolygiai */
+  display: inline-block;
+}
+.nav-link:hover {
+  background-color: rgb(77, 154, 226);
+}
+.logo {
+  font-size: 30px;
+  display: inline-block;
+  padding: 0.2em 0;
+}
