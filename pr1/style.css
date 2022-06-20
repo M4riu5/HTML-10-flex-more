@@ -83,7 +83,26 @@ p {
 }
 /* Juosta */
 .sum {
-  background-color: #0779e4;
+  background-image: linear-gradient(to right, #095eaec4, #095eaec4),
+    url("https://preview.colorlib.com/theme/knuford/images/xbg_3.jpg.pagespeed.ic._5ftKPXrag.webp");
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 250px;
+}
+.tbox {
+  display: flex;
+  gap: 10px;
+  flex-basis: 20%;
+  color: white;
+}
+.totals-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
 }
