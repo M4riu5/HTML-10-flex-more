@@ -61,3 +61,29 @@ p {
 .card-link {
   color: #0779e4;
 }
+
+.fa {
+  font-size: 60px;
+  color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
+  gap: 10px;
+  padding-bottom: 100px;
+}
+.row div {
+  flex-basis: 48%;
+}
+.row img {
+  width: 100%;
+  height: 100%;
+}
+/* Juosta */
+.sum {
+  background-color: #0779e4;
+  width: 100%;
+  height: 250px;
+}
