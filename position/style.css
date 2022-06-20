@@ -1,0 +1,16 @@
+body {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-bottom: 1000px;
+}
+.text-2 {
+  /* Fixed skaiciuoja savo pozicija nuo pacio ekrano */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 1px solid black;
+  margin: 0;
+}
+.text-3 {
+  border: 1px solid #000;
+}
