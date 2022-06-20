@@ -23,6 +23,10 @@ p {
 .header {
   background-color: rgb(7, 121, 228);
   color: white;
+  /* position: sticky; GAlimas variantas */
+  position: fixed;
+  top: 0;
+  width: 100%;
   /* padding: 1em 0; */
 }
 .header-flex {
@@ -45,6 +49,9 @@ p {
   padding: 0.2em 0;
 }
 /* Services section ========================= */
+.services-section {
+  padding-top: calc(4% + 20px);
+}
 .services-cards {
   display: flex;
   margin-bottom: 2rem;
@@ -106,3 +113,4 @@ p {
   font-weight: bolder;
   font-size: 20px;
 }
+/* User CARDS */
