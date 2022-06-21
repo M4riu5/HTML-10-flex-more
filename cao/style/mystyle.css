@@ -22,6 +22,11 @@
   height: 2px;
   margin: 30px 0;
 }
+.line1 {
+  background-color: white;
+  height: 2px;
+  margin: 15px 0;
+}
 .hero-bottom {
   display: flex;
 }
@@ -50,6 +55,10 @@
   max-height: 40em;
   min-height: 23em;
   background-color: rgb(121, 191, 216);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
 }
 .article2 {
   flex-basis: 70%;
@@ -57,6 +66,10 @@
   max-height: 40em;
   min-height: 23em;
   background-color: rgb(138, 125, 185);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
 }
 .article3 {
   flex-basis: 70%;
@@ -64,6 +77,10 @@
   max-height: 40em;
   min-height: 23em;
   background-color: rgb(228, 145, 137);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
 }
 .article4 {
   flex-basis: 30%;
@@ -71,6 +88,10 @@
   max-height: 40em;
   min-height: 23em;
   background-color: rgb(223, 182, 143);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
 }
 .article5 {
   flex-basis: 40%;
@@ -78,6 +99,10 @@
   max-height: 40em;
   min-height: 23em;
   background-color: rgb(126, 151, 208);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
 }
 .article6 {
   flex-basis: 60%;
@@ -85,4 +110,23 @@
   max-height: 40em;
   min-height: 23em;
   background-color: rgb(121, 173, 150);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+}
+.bottom {
+  background-color: rgb(40, 24, 70);
+  color: white;
+  padding: 150px 0;
+}
+.bottom h2 {
+  font-size: 40px;
+}
+.btn1 {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  width: 200px;
+  height: 3rem;
 }
